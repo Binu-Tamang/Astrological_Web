@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroSection from "./components/HeroSection";
+import Services from "./components/Services";
 // import Services from "./components/Services/Services";
 // import BestSellers from "./components/BestSellers/BestSellers";
 // import AboutUs from "./components/AboutUs/AboutUs";
@@ -15,8 +16,8 @@ const App = () => {
     <>
       <Header />
       <HeroSection />
-      {/* <Services />
-      <BestSellers />
+      <Services />
+      {/* <BestSellers />
       <AboutUs />
       <Testimonials />
       <ContactUs />
