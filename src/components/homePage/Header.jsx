@@ -1,13 +1,14 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Offcanvas } from "react-bootstrap";
-import facebookIcon from "../assets/icons/Facebook.png";
-import linkedinIcon from "../assets/icons/Linkedin.png";
-import instagramIcon from "../assets/icons/Instagram.png";
-import twitterIcon from "../assets/icons/TwitterX.png";
-import mapIcon from "../assets/icons/GoogleMaps.png";
-import emailIcon from "../assets/icons/Email.png";
-import userIcon from "../assets/icons/user.png";
+import facebookIcon from "../../assets/icons/Facebook.png";
+import linkedinIcon from "../../assets/icons/Linkedin.png";
+import instagramIcon from "../../assets/icons/Instagram.png";
+import twitterIcon from "../../assets/icons/TwitterX.png";
+import mapIcon from "../../assets/icons/GoogleMaps.png";
+import emailIcon from "../../assets/icons/Email.png";
+import userIcon from "../../assets/icons/user.png";
 
 const Header = () => {
   const [show, setShow] = useState(false);

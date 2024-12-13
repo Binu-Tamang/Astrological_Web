@@ -26,14 +26,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  /* margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -70,8 +62,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
+p{
+  color: #000;
+}
 /* banner css and login css here  */
+.mainSection {
+  padding-top: 3rem;
+}
 .loginBox {
   text-align: right;
   display: flex;
@@ -141,4 +138,43 @@ button.btn.btn-dark {
   background: transparent;
   color: #fff;
   border: none;
+}
+/* about us css here  */
+img.hand-img {
+  height: 600px;
+  object-fit: cover;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  z-index: -1;
+}
+
+/* slider banner testimonial css starts herre */
+button.slick-arrow.slick-prev {
+  left: 25px;
+}
+
+button.slick-arrow.slick-next {
+  right: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 50px !important;
+}
+.testi-Banner {
+  text-align: center;
+  width: 50%;
+}
+.slick-dots li.slick-active button:before {
+  font-size: 20px;
+  color: #fff !important;
+}
+
+.slick-dots li button:before {
+  font-size: 20px !important;
+  color: #D9D9D9 !important;
+}
+ul.slick-dots {
+  bottom: 20px;
+  z-index: 10;
 }
