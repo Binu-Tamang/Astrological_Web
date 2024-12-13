@@ -17,7 +17,8 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container-fluid">
+     <div className="mainHead">
+     <div className="container-fluid">
         <div className="row p-3">
           {/* Left Column */}
           <div className="col-md-6 text-white p-2">
@@ -136,10 +137,16 @@ const Header = () => {
                   <i className="bi bi-person"></i> Pandit Booking
                 </a>
               </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark">
+                  <i className="bi bi-person"></i> Vastu Detection
+                </a>
+              </li>
             </ul>
           </Offcanvas.Body>
         </Offcanvas>
       </div>
+     </div>
     </header>
   );
 };
