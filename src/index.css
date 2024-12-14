@@ -26,12 +26,9 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  /* margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
+ul{
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -70,8 +67,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
+p{
+  color: #000;
+}
 /* banner css and login css here  */
+.mainSection {
+  padding-top: 3rem;
+}
 .loginBox {
   text-align: right;
   display: flex;
@@ -141,4 +143,99 @@ button.btn.btn-dark {
   background: transparent;
   color: #fff;
   border: none;
+}
+/* about us css here  */
+img.hand-img {
+  height: 600px;
+  object-fit: cover;
+  position: absolute;
+  top: -55px;
+  left: 0;
+  z-index: -1;
+}
+
+/* slider banner testimonial css starts herre */
+button.slick-arrow.slick-prev {
+  left: 25px;
+}
+
+button.slick-arrow.slick-next {
+  right: 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 50px !important;
+}
+.testi-Banner {
+  text-align: center;
+  width: 50%;
+}
+.slick-dots li.slick-active button:before {
+  font-size: 20px;
+  color: #fff !important;
+}
+
+.slick-dots li button:before {
+  font-size: 20px !important;
+  color: #D9D9D9 !important;
+}
+ul.slick-dots {
+  bottom: 20px;
+  z-index: 10;
+}
+/* footer css starts here */
+/* =======================================
+   Footer CSS
+=========================================== */
+.footer-box p,
+ul.imp-link li a,
+ul.footer-contact li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.2s all ease;
+}
+
+ul.imp-link li,
+ul.footer-contact li {
+  list-style: none;
+  padding: 6px 0;
+}
+
+.footer-h {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+ul.footer-social-links {
+  display: flex;
+  padding-top: 10px;
+}
+
+ul.footer-social-links li {
+  list-style: none;
+  margin-right: 6px;
+}
+
+ul.footer-contact li {
+  display: flex;
+  align-items: center;
+}
+
+ul.footer-contact li i {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+ul.imp-link, ul.footer-contact {
+  padding: 0;
+  margin: 0;
+}
+.imp-link {
+  column-count: 2;  
+  column-gap: 20px;
 }
